@@ -6,7 +6,7 @@ namespace GlobalLogic.MicroservicesDemo.Modules
     {
         public IndexModule()
         {
-            Get["/"] = parameters =>
+            Get["/"] = _ =>
             {
                 return View["index"];
             };
